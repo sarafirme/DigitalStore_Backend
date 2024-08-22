@@ -14,7 +14,7 @@ const ProductModel = connection.define("Product", {
     },
     enabled: {
         type: DataTypes.BOOLEAN,
-        defaultValue: 0
+        defaultValue: false
     },
     name: {
         type: DataTypes.STRING(255),
@@ -26,7 +26,7 @@ const ProductModel = connection.define("Product", {
     },
     use_in_menu: {
         type: DataTypes.BOOLEAN,
-        defaultValue: 0
+        defaultValue: false
     },
     stock: {
         type: DataTypes.INTEGER,

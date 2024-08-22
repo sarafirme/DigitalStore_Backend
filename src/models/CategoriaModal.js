@@ -14,7 +14,7 @@ let CategoriaModal = connection.define(
     },
     use_in_menu: {
       type: DataTypes.BOOLEAN,
-      defaultValue: 0,
+      defaultValue: false,
     },
   },
   {}
