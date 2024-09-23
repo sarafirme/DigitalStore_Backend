@@ -64,4 +64,4 @@ app.delete('/Deleteimages', ImageController.deletarTodas)
 
 
 
-app.listen(10000)
+app.listen(3000)
